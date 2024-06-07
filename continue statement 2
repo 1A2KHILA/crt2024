@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+   while(1) 
+   {
+       printf("enter name");
+       char name[20];
+       scanf("%s",name);
+       printf("enter branch");
+       char branch[10];
+       scanf("%s",branch);
+      // char ch;
+       printf("enter another record(y/n)\n");
+       char ch;
+       //scanf("%c",&ch);
+       fflush(stdin);
+      scanf("%c",&ch);
+       if(ch=='n'||ch=='N')
+        break;
+   }
+   }
